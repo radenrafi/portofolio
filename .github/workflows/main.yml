@@ -16,3 +16,7 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
+        protocol: ftps         # coba ftps dulu
+        port: 21               # sesuaikan kalau perlu
+        passive: true
+        timeout: 60000         # 60 detik
